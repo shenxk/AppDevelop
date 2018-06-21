@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小康学开发"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="小康学开发"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="赛选"
+        android:textSize="24sp"
+
+        android:drawableRight="@drawable/saixuanicon"
+        android:drawablePadding="10dp"
+
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"/>
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小康学开发"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小康学开发"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tv_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/tv_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlue"
+        android:text="小康在学习吗==================++++++++++++++"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+</LinearLayout>
