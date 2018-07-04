@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.shenx.appdeveloper">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon_user"
@@ -24,8 +25,11 @@
         <activity android:name=".EditTextActivity" />
         <activity android:name=".RadioButtonActivity" />
         <activity android:name=".CheckBoxActivity" />
-        <activity android:name=".ImageViewActivity"></activity>
-        <activity android:name=".listviewActivity.ListViewActivty"/>
+        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".listviewActivity.ListViewActivty" />
+        <activity android:name=".gridview.GridViewActivity" />
+        <activity android:name=".ScrollViewTestActivity" />
+
     </application>
 
 </manifest>
