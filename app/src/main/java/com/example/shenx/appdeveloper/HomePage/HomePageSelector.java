@@ -17,7 +17,9 @@ import com.example.shenx.appdeveloper.LinearLayout;
 import com.example.shenx.appdeveloper.R;
 import com.example.shenx.appdeveloper.RadioButtonActivity;
 import com.example.shenx.appdeveloper.RelativeLayout;
+import com.example.shenx.appdeveloper.ScrollViewTestActivity;
 import com.example.shenx.appdeveloper.TextViewActivity;
+import com.example.shenx.appdeveloper.gridview.GridViewActivity;
 import com.example.shenx.appdeveloper.listviewActivity.ListViewActivty;
 
 
@@ -44,8 +46,8 @@ public class HomePageSelector extends AppCompatActivity {
         im.AddItem("复选框CheckBox", "checkbox的练习");
         im.AddItem("ImageViewTest1", "test the imageView control");
         im.AddItem("ListviewTest", "列表视图练习");
-        im.AddItem("LinearLayout", "线性布局应用主要展示控件线性布局");
-        im.AddItem("LinearLayout", "线性布局应用主要展示控件线性布局");
+        im.AddItem("GridView", "网格视图");
+        im.AddItem("ScrollView", "滚动条....水平---||垂直");
         im.AddItem("LinearLayout", "线性布局应用主要展示控件线性布局");
         im.AddItem("LinearLayout", "线性布局应用主要展示控件线性布局");
 
@@ -85,8 +87,10 @@ public class HomePageSelector extends AppCompatActivity {
                         intent = new Intent(HomePageSelector.this, ListViewActivty.class);
                         break;
                     case "GridView":
+                        intent =new Intent(HomePageSelector.this, GridViewActivity.class);
                         break;
                     case "ScrollView":
+                        intent =new Intent(HomePageSelector.this, ScrollViewTestActivity.class);
                         break;
                     case "RecyclerView1":
                     case "RecyclerView2":
