@@ -45,6 +45,4 @@ public class ButtonTestActivity extends AppCompatActivity {
     public void View_click(View view){
         Toast.makeText(this,"view被点击",Toast.LENGTH_SHORT).show();
     }
-
-
 }
